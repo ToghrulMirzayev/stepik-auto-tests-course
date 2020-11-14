@@ -23,4 +23,5 @@ try:
     button = browser.find_element_by_class_name("btn.btn-default")
     button.click()
 finally: 
-    time.sleep(30) browser.quit()
+    time.sleep(30) 
+    browser.quit()
